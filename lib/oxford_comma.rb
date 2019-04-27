@@ -1,4 +1,9 @@
 def oxford_comma(array)
   if array.length == 1
-    string = array*""
+    string = array * ""
+    elsif
+    array.length == 2 
+    string = array * " and "
+  else
+    string = "#{array[1..-1] and #{array.last}"
 end
