@@ -1,3 +1,4 @@
 def oxford_comma(array)
-  array.map.with_index |w, i|
+  if array.length == 1
+    
 end
