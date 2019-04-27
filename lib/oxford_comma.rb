@@ -5,5 +5,5 @@ def oxford_comma(array)
     array.length == 2 
     string = array * " and "
   else
-    string = "#{array[1..-1] and #{array.last}"
+    string = "#{array[1..-1]*","},and #{array.last}"
 end
